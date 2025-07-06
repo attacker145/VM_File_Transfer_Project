@@ -4,7 +4,7 @@ import subprocess
 from http.server import HTTPServer, BaseHTTPRequestHandler
 
 UPLOAD_DIR = "/home/roman/Documents/uploads"  # Changed to /tmp for better permissions
-HOST_IP = "192.168.252.1"  # Host PC's IP for restricted firewall rule
+HOST_IP = "192.168.252.xx"  # Host PC's IP for restricted firewall rule
 
 
 def get_ip_address():
