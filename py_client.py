@@ -20,6 +20,6 @@ def upload_file(file_path, server_url):
 
 if __name__ == '__main__':
     # Replace with your VM's IP and port
-    server_url = 'http://192.168.1.231:8000'
+    server_url = 'http://192.168.1.xxx:8000'
     file_path = 'C:/Users/YourName/Documents/Github/filename'
     upload_file(file_path, server_url)
