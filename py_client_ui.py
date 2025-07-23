@@ -14,7 +14,7 @@ class FileUploaderApp:
         tk.Label(root, text="Server URL:").grid(row=0, column=0, padx=5, pady=5, sticky="e")
         self.url_entry = tk.Entry(root, width=40)
         self.url_entry.grid(row=0, column=1, padx=5, pady=5)
-        self.url_entry.insert(0, "http://172.20.10.7:8000")
+        self.url_entry.insert(0, "http://172.20.10.5:8000")
 
         # File path input
         tk.Label(root, text="File Path:").grid(row=1, column=0, padx=5, pady=5, sticky="e")
