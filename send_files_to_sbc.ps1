@@ -1,7 +1,7 @@
 $archivePath = "all.zip"
 $excludedItems = @("venv", "config.txt", ".gitattributes")
 $pscpPath = "C:\Program Files\PuTTY\pscp.exe"
-$pscpArgs = "all.zip root@172.20.10.5:/etc/root"
+$pscpArgs = "all.zip root@192.168.1.130:/root"
 
 if (Test-Path $archivePath) {
     Remove-Item $archivePath -Force
